@@ -1,2 +1,2 @@
-./backend/node.modules
-./backend/*.log
+node_modules/
+*.log
