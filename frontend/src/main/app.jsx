@@ -11,7 +11,7 @@ export default props => (
         <Header />
         <SideBar />
         <div className='content-wrapper'>
-            <Routes />  {/* Conteúdo */}
+            <Routes />  {/* Componente que direciona para os conteúdos */}
         </div>
         <Footer />
     </div>
