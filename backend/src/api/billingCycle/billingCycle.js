@@ -1,16 +1,24 @@
+/*ODM  - Object Document Map - API do Mongoose pelo Nodes.
+esquema de mapeamento do objeto para o banco de dados. (validação no Mongo)*/
+
 const restful = require('node-restful')
 const mongoose = restful.mongoose
 
+//esquema 1
 const creditSchema = new mongoose.Schema({
     name: { type: String, required: true },
     value: { type: Number, min: 0, required: true }
 })
+
+//esquema 2
 const debtSchema = new mongoose.Schema({
     name: { type: String, required: true },
     value: { type: Number, min: 0, required: [true, 'Informe o valor do débito!'] },
     status: { type: String, required: false, uppercase: true,
     enum: ['PAGO', 'PENDENTE', 'AGENDADO'] }
 })
+
+//esquema 3
 const billingCycleSchema = new mongoose.Schema({
     name: { type: String, required: true },
     month: { type: Number, min: 1, max: 12, required: true },
