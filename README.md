@@ -1,11 +1,11 @@
 # MyMoney-app
 
 *Dashboard*
-![Dashboard](https://github.com/atelesjr/MyMoney-app/blob/master/frontend/img/01.JPG)
+![Dashboard](/frontend/img/01.JPG "Dashboard")
 
 *Ciclo de pagamentos - main*
-![Ciclos de Pagamaento](https://github.com/atelesjr/MyMoney-app/blob/master/frontend/img/02.JPG)
+![Ciclos de Pagamaento - main](/frontend/img/02.JPG "Ciclos de Pagamaento - main")
 
 *Ciclo de pagamentos - Update*
-![Ciclos de Pagamaento](https://github.com/atelesjr/MyMoney-app/blob/master/frontend/img/03.JPG)
+![Ciclos de Pagamaento - Update](/frontend/img/03.JPG "Ciclos de Pagamaento - Update")
 
